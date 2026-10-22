@@ -1,0 +1,28 @@
+{
+  "_source": "submission/bench/results.json — real benchmark run, local decider, kit guardrails eval cases",
+  "_note": "Tool-selection eval cases (CampusPilot AI) not yet benchmarked with hosted UGMDU API. Run ./kit.cmd bench --split test to get those numbers.",
+  "decider": {
+    "accuracy": 0.7917,
+    "accuracy_pct": "79.2%",
+    "latency_p50_ms": 295,
+    "latency_p95_ms": 468,
+    "usd_per_1k_decisions": 0.0,
+    "confident_share": 0.6667,
+    "accuracy_when_confident": 0.9375,
+    "accuracy_when_confident_pct": "93.8%",
+    "sent_to_human": 8
+  },
+  "llm": {
+    "model": "us.amazon.nova-pro-v1:0",
+    "accuracy": 0.9583,
+    "accuracy_pct": "95.8%",
+    "latency_p50_ms": 1277,
+    "latency_p95_ms": 1426,
+    "usd_per_1k_decisions": 0.1785
+  },
+  "speedup_p50": 4.33,
+  "eval_cases_total": 24,
+  "confidence_threshold": 0.7,
+  "routing_threshold": 0.6,
+  "ambiguity_threshold": 0.45
+}
