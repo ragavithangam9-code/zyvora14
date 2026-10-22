@@ -1,0 +1,14 @@
+# Amazon Bedrock AgentCore features for CampusPilot AI.
+# `./kit deploy` adds what is enabled to deploy/agentcore/agentcore.json.
+
+memory:
+  enabled: false
+  name: campuspilotmemory
+  strategies: [SEMANTIC, USER_PREFERENCE]
+  expiry_days: 30
+
+gateway:
+  enabled: false
+  name: campuspilottools
+  authorizer: AWS_IAM
+  targets: []

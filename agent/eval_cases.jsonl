@@ -1,0 +1,24 @@
+{"state": "User request: Find internships suitable for a second-year CSE student.", "expected": {"tool": "search_opportunities"}, "split": "tune"}
+{"state": "User request: Show me scholarship opportunities for engineering students.", "expected": {"tool": "search_opportunities"}, "split": "tune"}
+{"state": "User request: I need a free Java course to prepare for my placements.", "expected": {"tool": "find_learning_resources"}, "split": "tune"}
+{"state": "User request: Recommend DSA resources for interview preparation.", "expected": {"tool": "find_learning_resources"}, "split": "tune"}
+{"state": "User request: Build me a 12-week placement preparation roadmap.", "expected": {"tool": "build_career_plan"}, "split": "tune"}
+{"state": "User request: I want a weekly study plan for cracking campus placements in 3 months.", "expected": {"tool": "build_career_plan"}, "split": "tune"}
+{"state": "User request: Compare INT001 and INT002 for me.", "expected": {"tool": "compare_opportunities"}, "split": "tune"}
+{"state": "User request: Which is better, the data science internship or the software engineering one? Compare them.", "expected": {"tool": "compare_opportunities"}, "split": "tune"}
+{"state": "User request: Hi! What can you help me with?", "expected": {"tool": "none"}, "split": "tune"}
+{"state": "User request: Can you tell me who invented Java?", "expected": {"tool": "none"}, "split": "tune"}
+{"state": "User request: I want paid internships in machine learning for a 3rd-year student.", "expected": {"tool": "search_opportunities"}, "split": "tune"}
+{"state": "User request: What free online courses are available for learning Python from scratch?", "expected": {"tool": "find_learning_resources"}, "split": "tune"}
+{"state": "User request: Find internships for a 3rd-year CSE student with Python and REST API skills.", "expected": {"tool": "search_opportunities"}, "split": "test"}
+{"state": "User request: Are there any scholarships for women in engineering?", "expected": {"tool": "search_opportunities"}, "split": "test"}
+{"state": "User request: I want to learn machine learning. What resources do you recommend?", "expected": {"tool": "find_learning_resources"}, "split": "test"}
+{"state": "User request: Give me a roadmap to become a web developer in 8 weeks.", "expected": {"tool": "build_career_plan"}, "split": "test"}
+{"state": "User request: What is the difference between SCH001 and SCH002?", "expected": {"tool": "compare_opportunities"}, "split": "test"}
+{"state": "User request: Thanks for the help! See you later.", "expected": {"tool": "none"}, "split": "test"}
+{"state": "User request: I need help with something related to my studies.", "expected": {"tool": "none"}, "split": "test"}
+{"state": "User request: Give me internships AND also tell me about free AWS courses.", "expected": {"tool": "search_opportunities"}, "split": "test"}
+{"state": "User request: Show me cloud computing internships.", "expected": {"tool": "search_opportunities"}, "split": "tune"}
+{"state": "User request: Suggest resources to improve my coding skills for interviews.", "expected": {"tool": "find_learning_resources"}, "split": "test"}
+{"state": "User request: Create a career plan for someone who wants to get into data science.", "expected": {"tool": "build_career_plan"}, "split": "test"}
+{"state": "User request: Compare the cybersecurity internship with the cloud infrastructure internship.", "expected": {"tool": "compare_opportunities"}, "split": "tune"}
